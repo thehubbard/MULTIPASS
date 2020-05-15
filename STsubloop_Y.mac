@@ -1,0 +1,26 @@
+# File:         MULTIPASS/STsubloop_Y.mac
+# Description:  Replicates Scanning table motion
+#
+# Version:      1.0.0
+# Created:      2020-03-18
+# Author:       Michael Hubbard
+# Modified:     
+#
+#
+# Tested with:
+#              Geant4 v 10.4.p01
+#              ROOT v 6.12.06
+#
+# ....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+#
+
+# STsubloop_Y.mac
+
+
+/run/printProgress 1000 
+
+/MULTIPASS/detector/reflectivity 0.95
+
+/MULTIPASS/gun/ScanTableY {yoffset}  
+
+/control/loop STsubloop_X.mac xoffset 0 100 10

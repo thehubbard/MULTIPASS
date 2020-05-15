@@ -1,0 +1,29 @@
+# File:         MULTIPASS/slabLoop.mac
+# Description:  detThickLoop for NaI simulation. Changes z dimension of crystal
+#				by calling subloop_zdim and creates loop of files.
+#
+# Version:      1.0.0
+# Created:      2020-03-18
+# Author:       Michael Hubbard
+# Modified:     
+#
+#
+# Tested with:
+#              Geant4 v 10.4.p01
+#              ROOT v 6.12.06
+#
+# ....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+#
+
+
+# slabLoop.mac
+
+# initialize
+/run/initialize
+#
+
+/MULTIPASS/gun/particleEnergy 662 keV
+
+#/control/loop subloop_xdim.mac xdim 10 100 10
+
+/control/loop subloop_xdim.mac xdim 100 1000 100

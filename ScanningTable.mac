@@ -1,0 +1,23 @@
+# File:         MULTIPASS/ScanningTable.mac
+# Description:  Replicates Scanning table motion
+#
+# Version:      1.0.0
+# Created:      2020-03-18
+# Author:       Michael Hubbard
+# Modified:     
+#
+#
+# Tested with:
+#              Geant4 v 10.4.p01
+#              ROOT v 6.12.06
+#
+# ....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+#
+
+
+# ScanningTable.mac
+
+# initialize
+/run/initialize
+
+/control/loop STsubloop_Y.mac yoffset 0 200 10

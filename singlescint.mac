@@ -1,0 +1,3 @@
+/random/resetEngineFrom singlescint.rndm
+/MULTIPASS/eventVerbose 1
+/run/beamOn 1
