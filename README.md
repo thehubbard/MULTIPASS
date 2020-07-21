@@ -32,7 +32,7 @@ Depending on the run mode the data output changes. Within the HistoManager the d
 
 # License 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-If you do use this code for publication, please consider citing the code with the zenodo doi and my thesis 
+If you do use this code for publication, please consider citing the code with the zenodo doi [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3954912.svg)](https://doi.org/10.5281/zenodo.3954912) and my thesis 
 [![DOI](https://img.shields.io/badge/DOI-0.15126%2Fthesis.00857773-blue)](https://doi.org/10.15126/thesis.00857773) 
 
 
